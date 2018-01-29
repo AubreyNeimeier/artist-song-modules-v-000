@@ -18,9 +18,8 @@ class Artist
     #@@artists << self
     #self.class.all << self
     #similar to calling Artist.all or Song.all. we call up the class of the instance with .class
-    super
     #tells the method to use the code i the memorable module and also any additional code below
-
+    super
     @songs = []
   end
 
