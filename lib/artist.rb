@@ -16,8 +16,9 @@ class Artist
   def initialize
     #initialize is an instance method.
     #@@artists << self
-    self.class.all << self
+    #self.class.all << self
     #similar to calling Artist.all or Song.all. we call up the class of the instance with .class
+    super
     @songs = []
   end
 
