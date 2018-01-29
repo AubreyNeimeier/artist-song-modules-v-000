@@ -1,7 +1,5 @@
 require 'pry'
 module Memorable
-  @@artists = []
-  @@songs = []
 
   def reset_all
     self.all.clear
