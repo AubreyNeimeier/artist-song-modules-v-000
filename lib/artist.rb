@@ -13,7 +13,9 @@ class Artist
 
 
   def initialize
-    @@artists << self
+    #@@artists << self
+    self.class.all << self 
+    #similar to calling Artist.all or Song.all. we call up the class of the instance with .class
     @songs = []
   end
 
