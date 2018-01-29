@@ -18,9 +18,7 @@ class Song
     @artist = artist
   end
 
-  def to_param
-    name.downcase.gsub(' ', '-')
-  end
+
 =begin
   def self.reset_all
     @@songs.clear
