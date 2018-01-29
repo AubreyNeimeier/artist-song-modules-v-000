@@ -11,7 +11,6 @@ class Song
 
   @@songs = []
 
-
   def artist=(artist)
     @artist = artist
   end
