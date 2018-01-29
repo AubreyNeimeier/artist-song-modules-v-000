@@ -10,7 +10,7 @@ module Memorable
 
   def count
     @@artists.size
-    @@songs.count
+    @@songs.size
   end
 =begin
   def reset_all
